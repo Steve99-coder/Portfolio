@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Nderitu - Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/a71e5ce1d6.js"></script>
+</head>
+
+<body>
+    <nav>
+        <p>Stephen Nderitu</p>
+
+        <button class="burger" id="burger">
+            &#9776
+        </button>
+
+        <ul>
+            <li><a id="home-anchor" href="#">Home</a></li>
+            <li><a id="stack-anchor" href="#tech-stack">Tech Stack</a></li>
+            <li><a id="proj-anchor" href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="toggle-bar">
+        <button class="mode" onClick="toggleTheme()"><i id="icon" class="fa fa-moon-o" aria-hidden="true"></i></button>
+    </div>
+
+    <div class="profile">
+        <img src="assets/img/portrait.jpg" alt="">
+        <div class="bio-text">
+            <h2>About Me</h2><span></span>
+            <p>Software Engineer | Full stack web developer</p>
+            <p> A Software Engineer with experience in building client-side applications. Specialized in website development where I have experience in using Angular for frontend and django,flask for backend in building Applications. I have also worked with
+                Html,Css,Javascript and postgres Sql.Other skills include UI design.
+            </p>
+
+            <div class="social-media">
+
+                <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/in/StephenNderitu/"
+                        target="_blank" rel="noopener">LinkedIn</a></i>
+                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/steve99-coder" target="_blank"
+                        rel="noopener">GitHub</a></i>
+                <i class="fa fa-facebook-official" aria-hidden="true"><a href="https://web.facebook.com/profile.php?id=100008271969996"
+                        target="_blank" rel="noopener">Facebook</a></i>
+                <i class="fa fa-download" aria-hidden="true"><a
+                        href="" target="_blank"
+                        rel="noopener">Résumé</a></i>
+                <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:stevenderitu99@gmail.com" target="_blank"
+                        rel="noopener">Email Me</a></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="tech-stack" id="tech-stack">
+        <h2>Tech Stack</h2><span></span>
+
+        <div class="stack-imgs">
+            <img src="assets/img/html5.svg" alt="HTML 5">
+            <img src="assets/img/css.svg" alt="CSS">
+            <img src="assets/img/typescript.svg" alt="TypeScript">
+            <img src="assets/img/angular.svg" alt="Angular">
+            <img src="assets/img/laravel.svg" alt="Laravel">
+            <img src="assets/img/firebase.svg" alt="Firebase">
+            <img src="assets/img/mysql.svg" alt="MySQL">
+            <img src="assets/img/googlecloud.svg" alt="Google Cloud">
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <h2>Projects</h2><span></span>
+        <div class="project-section">
+            <div class="content">
+                <div class="seventh background">
+                </div>
+                <div class="footer">
+                    <h3>Blogs</h3>
+                    <p>This is a personal blogging website where you can create and share your opinions and other users can read and comment on them,view the blog posts on the site,see random quotes on the site,create a blog from the application.
+                    </p>
+                    <a href="https://pure-waters-19035.herokuapp.com" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="sixth background">
+                </div>
+                <div class="footer">
+                    <h3> Github Search</h3>
+                    <p>This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories in the search form repository. </p>
+                    <a href="https://steve99-coder.github.io/Git-Search/user" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="fourth background">
+                </div>
+                <div class="footer">
+                    <h3>News Api</h3>
+                    <p>This an application that that will help a user list and preview news articles from various sources.This ranges from business news to various kinds of sources of news. </p>
+                    <a href="https://the-news-api.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="top background">
+                </div>
+                <div class="footer">
+                    <h3>Quotes App</h3>
+                    <p>This is a web application which a user can create quotes and have those quotes voted on whether they are terrible or are inspirational.It uses angular CLI </p>
+                    <a href="https://steve99-coder.github.io/Quotes-App/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="second background">
+                </div>
+                <div class="footer">
+                    <h3>Awards</h3>
+                    <p>This is an awards app that users can be able to post a project he/she has created and get it reviewed by his/her peers the projects can be rated based on design,usability and content </p>
+                    <a href="https://blooming-tor-03493.herokuapp.com/accounts/login/?next=/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="third background">
+                </div>
+                <div class="footer">
+                    <h3>Neighbourhood</h3>
+                    <p>This is a neighbourhood application where a user must signup first, be able to join a hood owned by the hood admin, and once you join a hood, one can see businesses and posts in only that hood they belong to. </p>
+                    <a href="https://sancity-hood.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <span class="footer_desc">Done with &#10084; by <a class="git_link" href="https://github.com/steve99-coder"
+                target="_blank" rel="noopener">Stephen Nderitu</a></span>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
